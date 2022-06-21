@@ -1,11 +1,8 @@
 import { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "./styles/global.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App"></div>;
+  return <h1 className="text-5xl">Hello World</h1>;
 }
 
 export default App;
